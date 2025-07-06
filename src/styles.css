@@ -32,13 +32,27 @@ header {
 
 .weather-app-city {
   font-size: 40px;
+  margin: 0 0 20px 0;
+}
+
+.weather-app-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-information p {
+  line-height: 1.4;
   margin: 0;
 }
 
-p {
-  line-height: 1.4;
+strong {
+  color: #9fd3c7;
 }
 
 footer {
   margin-top: 30px;
+}
+
+footer p {
+  font-size: 15px;
 }
