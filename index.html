@@ -13,7 +13,30 @@
         <input type="submit" value="Search" />
       </form>
     </header>
-    <main></main>
+    <main>
+      <div class="current-weather">
+        <div class="weather-app-information">
+          <h1 id="city">Paris</h1>
+          <p>
+            <span id="time">Saturday 22:06</span>,
+            <span id="weather-details">moderate rain</span>
+            <br />
+            Humidity: <strong id="humidity">88%</strong> Wind:
+            <strong id="wind"> 6.17km/h</strong>
+          </p>
+        </div>
+        <div class="temperature-container">
+          <div id="icon">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/169/809/original/rain-night.png?1751829326"
+              alt=""
+            />
+          </div>
+          <div id="temperature">70</div>
+          <div id="unit">°F</div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
     <script src="src/index.js"></script>
   </body>
