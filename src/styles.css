@@ -7,6 +7,21 @@ header {
   margin-bottom: 30px;
 }
 
+.search-form-input,
+.search-form-btn {
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.search-form-input {
+  width: 76%;
+}
+
+.search-form-btn {
+  margin: 10px;
+}
+
 .current-weather-container {
   max-width: 600px;
   margin: 250px auto;
