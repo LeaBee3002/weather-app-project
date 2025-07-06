@@ -75,3 +75,8 @@ footer {
 footer p {
   font-size: 15px;
 }
+
+footer a {
+  color: #9fd3c7;
+  text-decoration: none;
+}
