@@ -49,6 +49,20 @@ strong {
   color: #9fd3c7;
 }
 
+.temperature-container {
+  display: flex;
+}
+
+.weather-app-temperature {
+  font-size: 88px;
+}
+
+.weather-app-unit {
+  margin-top: 15px;
+
+  font-size: 28px;
+}
+
 footer {
   margin-top: 30px;
 }
