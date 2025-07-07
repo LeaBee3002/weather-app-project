@@ -32,6 +32,7 @@ header {
   padding: 40px;
   background: #455d7a;
   border-radius: 20px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 .weather-app-city {
