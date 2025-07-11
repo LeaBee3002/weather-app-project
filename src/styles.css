@@ -70,7 +70,6 @@ strong {
 
 .weather-app-unit {
   margin-top: 15px;
-
   font-size: 28px;
 }
 
@@ -85,4 +84,31 @@ footer p {
 footer a {
   color: #9fd3c7;
   text-decoration: none;
+}
+
+.weather-forcast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forcast-date {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forcast-temperatures {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forcast-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-forcast-temperature {
+  padding: 5px;
 }
